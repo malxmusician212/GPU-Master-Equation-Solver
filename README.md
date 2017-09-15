@@ -1,6 +1,6 @@
 # GPU-Master-Equation-Solver
 
-The provided code (mesolve_gpu.py) can be used to simulate an open quantum system via the Lindblad Master Equation framework.  In particular, the code numerally solves the master equation (a PDE) in time, with discretized space, with the Runge-Kutta 4 scheme.
+The provided code (mesolve_gpu.py) can be used to simulate an open quantum system via the Lindblad Master Equation framework by using a GPU.  In particular, the code numerally solves the master equation (a PDE) in time, with discretized space, with the Runge-Kutta 4 scheme.
 
 In order to use the provided code, the user need only call the runrk4_mesolve function.  Its inputs are:
 1) The initial condition for the density matrix, which is called rho_initial
